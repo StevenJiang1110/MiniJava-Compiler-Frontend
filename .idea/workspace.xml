@@ -3,12 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a0d6c360-1d01-45ce-85ba-571d6edcee37" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/MiniJava.g4" beforeDir="false" afterPath="$PROJECT_DIR$/src/MiniJava.g4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MiniJava.tokens" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MiniJavaLexer.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MiniJavaLexer.tokens" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MiniJavaListener.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MiniJavaParser.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MiniJavaVisitor.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +58,11 @@
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MiniJava.g4">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="211">
+              <caret line="143" column="27" lean-forward="true" selection-start-line="143" selection-start-column="27" selection-end-line="143" selection-end-column="27" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -274,7 +272,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MiniJava.g4">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="143" column="27" lean-forward="true" selection-start-line="143" selection-start-column="27" selection-end-line="143" selection-end-column="27" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
