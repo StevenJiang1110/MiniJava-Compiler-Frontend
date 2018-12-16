@@ -1,4 +1,4 @@
-from .MiniJavaListener import MiniJavaListener
+from MiniJavaListener import MiniJavaListener
 
 
 class ScopeBuilder(MiniJavaListener):
