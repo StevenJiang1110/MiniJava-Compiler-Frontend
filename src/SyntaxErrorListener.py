@@ -1,0 +1,2 @@
+class SyntaxErrorListener(object):
+    pass

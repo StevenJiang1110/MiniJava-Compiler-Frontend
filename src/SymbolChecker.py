@@ -1,0 +1,2 @@
+class SymbolChecker(object):
+    pass

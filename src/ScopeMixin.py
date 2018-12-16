@@ -1,0 +1,2 @@
+class ScopeMixin(object):
+    pass

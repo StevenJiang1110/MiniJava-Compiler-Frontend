@@ -1,0 +1,2 @@
+class ErrorReport(object):
+    pass
