@@ -6,11 +6,11 @@
 ### 实现上主要借助了antlr4完成了对语法规则的解析和生成
 ### 借助了antlr preview 这个插件实现了AST的可视化
 ### 在错误处理方面，主要完成了以下几方面工作：
-- Symbol Checker
 - Syntax Error Checker
+- Scope Checker
+- Symbol Checker
 - Type Checker
 ### miniJava为Java的一个很小的子集，其介绍具体可参见
 + http://www.cambridge.org/us/features/052182060X/
 ### miniJava的语法具体可参见
 + http://www.cambridge.org/us/features/052182060X/grammar.html
-hello world
