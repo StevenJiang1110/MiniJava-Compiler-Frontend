@@ -14,7 +14,7 @@ from MainParameter import MainParameter
 virtualSuperScope = Class("<Virtual Super Scope>", "<No Parent Class>", None)
 
 if __name__ =='__main__':
-    f = open('../test_file/binarytree.java')
+    f = open('../test_file/binarysearch.java')
 
     context = ''
     for line in f.readlines():

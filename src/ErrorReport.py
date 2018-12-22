@@ -13,4 +13,10 @@ class ErrorReport(object):
             print(str(ErrorReport.errorCount) + " errors found.")
             exit(-2)
 
+    @classmethod
+    def reportError(cls, ctx, msg):
+        ErrorReport.errorCount += 1
+        print(msg)
+
+
 

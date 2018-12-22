@@ -6,7 +6,6 @@ class BinarySearch{
 // This class contains an array of integers and
 // methods to initialize, print and search the array
 // using Binary Search
-
 class BS{
     int[] number ;
     int size ;
