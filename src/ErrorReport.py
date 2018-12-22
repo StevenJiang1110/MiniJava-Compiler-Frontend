@@ -1,10 +1,13 @@
 from antlr4 import *
 
+
 class ErrorReport(object):
     errorCount = 0
 
     @classmethod
     def hasError(cls):
+        global I
+
         return ErrorReport.errorCount > 0
 
     @classmethod
@@ -16,7 +19,7 @@ class ErrorReport(object):
     @classmethod
     def reportError(cls, ctx, msg):
         ErrorReport.errorCount += 1
-        print(msg)
+        print("line:" + str(ctx.line) + ":" + msg)
 
 
 
