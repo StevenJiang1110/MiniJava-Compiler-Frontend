@@ -9,7 +9,7 @@ class Method(Symbol, ScopeMixin):
         self.parentScope = parentScope
         self.params = dict()
         self.locals = dict()
-        self.paramTypes = dict()
+        self.paramTypes = list()
         if valid is None:
             self.valid = True
         else:
@@ -24,7 +24,7 @@ class Method(Symbol, ScopeMixin):
     def getParentScope(self):
         return self.parentScope
 
-    def addSymnbol(self, symbol):
+    def addSymbol(self, symbol):
         self.locals[symbol.getName()] = symbol
 
     def findSymbol(self, name):
@@ -38,7 +38,7 @@ class Method(Symbol, ScopeMixin):
             else:
                 return self.getParentScope().findSymbol(name)
 
-    def findLocalSymbol(self,name):
+    def findLocalSymbol(self, name):
         if self.params.get(name):
             return self.params.get(name)
         else:
@@ -46,9 +46,9 @@ class Method(Symbol, ScopeMixin):
 
     def addParam(self, param):
         self.params[param.getName()] = param
-        self.paramTypes.add(param.getType())
+        self.paramTypes.append(param.getType())
 
-    def findParams(self, name):
+    def findParam(self, name):
         return self.params.get(name)
 
     def getReturnType(self):
@@ -61,6 +61,6 @@ class Method(Symbol, ScopeMixin):
         if len(callNames) != len(self.paramTypes):
             return False
         for i in range(len(callNames)):
-            if not Symbol.isTypeCompatible(self.paramTypes.get(i), callNames[i]):
+            if not Symbol.isTypeCompatible(self.paramTypes[i], callNames[i]):
                 return False
         return True
