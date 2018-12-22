@@ -8,13 +8,14 @@ from SymbolChecker import SymbolChecker
 from TypeChecker import TypeChecker
 from MiniJavaLexer import MiniJavaLexer
 from MiniJavaParser import MiniJavaParser
+from antlr4.error.ErrorListener import ConsoleErrorListener
 
-
+inputLines = list()
 classes = dict()
 virtualSuperScope = Class("<Virtual Super Scope>", "<No Parent Class>", None)
 
 if __name__ =='__main__':
-    f = open('../test_file/binarysearch.java')
+    f = open('../test_file/binarytree.java')
 
     context = ''
     for line in f.readlines():
@@ -25,9 +26,13 @@ if __name__ =='__main__':
     tokens = CommonTokenStream(lexer)
     parser = MiniJavaParser(tokens)
 
-    parser.removeErrorListeners()
-
+    syntaxErrorListener = ConsoleErrorListener.INSTANCE
+    #parser.removeErrorListeners()
+    #parser.addErrorListener(syntaxErrorListener)
     tree = parser.goal()
+    ErrorReport.exitOnErrors()
+
+    print(type(tree))
 
     print(tree.toStringTree(recog=parser))
 
