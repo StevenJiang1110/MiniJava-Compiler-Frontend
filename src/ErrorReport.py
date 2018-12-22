@@ -1,2 +1,4 @@
 class ErrorReport(object):
-    pass
+    @classmethod
+    def exitOnErrors(cls):
+        pass

@@ -2,4 +2,6 @@ from MiniJavaListener import MiniJavaListener
 
 
 class TypeChecker(MiniJavaListener):
-    pass
+
+    def __init__(self, classes, cirtualSuperScope):
+        pass

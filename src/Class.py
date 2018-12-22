@@ -3,4 +3,6 @@ from Symbol import Symbol
 
 
 class Class(Symbol, ScopeMixin):
-    pass
+
+    def __init__(self, className, parentName, parentScope):
+        Symbol.__init__(self, className)
