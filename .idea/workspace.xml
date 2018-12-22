@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0d6c360-1d01-45ce-85ba-571d6edcee37" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Class.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Class.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ErrorReport.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ErrorReport.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Method.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Method.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ScopeBuilder.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/ScopeBuilder.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_file/binarysearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/test_file/binarysearch.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,7 +12,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/miniJava_compiler$Main.coverage" NAME="Main Coverage Results" MODIFIED="1545470470413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/miniJava_compiler$Main.coverage" NAME="Main Coverage Results" MODIFIED="1545475064478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/miniJava_compiler$MiniJavaListener.coverage" NAME="MiniJavaListener Coverage Results" MODIFIED="1544963955151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
   </component>
   <component name="FUSProjectUsageTrigger">
@@ -40,7 +36,7 @@
           <entry key="LICENSE" value="1" />
           <entry key="g4" value="3" />
           <entry key="java" value="12" />
-          <entry key="py" value="88" />
+          <entry key="py" value="92" />
           <entry key="tokens" value="12" />
         </counts>
       </usages-collector>
@@ -48,22 +44,22 @@
         <counts>
           <entry key="ANTLR v4 grammar file" value="2" />
           <entry key="PLAIN_TEXT" value="26" />
-          <entry key="Python" value="88" />
+          <entry key="Python" value="92" />
           <entry key="UML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="g4" value="7" />
-          <entry key="java" value="13" />
-          <entry key="py" value="5650" />
+          <entry key="java" value="54" />
+          <entry key="py" value="6991" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="ANTLR v4 grammar file" value="7" />
-          <entry key="PLAIN_TEXT" value="13" />
-          <entry key="Python" value="5650" />
+          <entry key="PLAIN_TEXT" value="54" />
+          <entry key="Python" value="6991" />
         </counts>
       </usages-collector>
     </session>
@@ -82,24 +78,68 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MiniJavaParser.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="178">
+              <caret line="646" column="36" selection-start-line="646" selection-start-column="36" selection-end-line="646" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://E:/anaconda/Anaconda3/Lib/site-packages/antlr4/ParserRuleContext.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="155" column="44" selection-start-line="155" selection-start-column="44" selection-end-line="155" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/102131857/builtins.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-621">
+              <caret line="5445" column="6" selection-start-line="5445" selection-start-column="6" selection-end-line="5445" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ScopeBuilder.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="17" column="43" lean-forward="true" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+            <state relative-caret-position="207">
+              <caret line="57" column="69" lean-forward="true" selection-start-line="57" selection-start-column="69" selection-end-line="57" selection-end-column="69" />
               <folding>
                 <element signature="e#0#45#0" expanded="true" />
-                <marker date="1545470470397" expanded="true" signature="300:369" ph="..." />
+                <marker date="1545474898309" expanded="true" signature="326:395" ph="..." />
+                <marker date="1545474898309" expanded="true" signature="1518:2094" ph="..." />
+                <marker date="1545474898309" expanded="true" signature="2131:2140" ph="..." />
+                <marker date="1545474898309" expanded="true" signature="2131:2162" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Method.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1107">
+              <caret line="65" column="19" selection-start-line="65" selection-start-column="19" selection-end-line="65" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#33#0" expanded="true" />
+                <marker date="1545473789297" expanded="true" signature="95:100" ph="..." />
+                <marker date="1545473789297" expanded="true" signature="95:1904" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_file/binarysearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+            <state relative-caret-position="114">
+              <caret line="12" column="53" lean-forward="true" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -107,20 +147,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MiniJavaListener.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
+            <state relative-caret-position="646">
               <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MainParameter.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-              <folding>
-                <marker date="1545464651840" expanded="true" signature="20:25" ph="..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -135,34 +163,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ErrorReport.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Class.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
+            <state relative-caret-position="38">
               <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
               <folding>
                 <element signature="e#0#33#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Symbol.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="44" lean-forward="true" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
-              <folding>
-                <marker date="1545464495727" expanded="true" signature="62:253" ph="..." />
-                <marker date="1545464495727" expanded="true" signature="179:210" ph="..." />
               </folding>
             </state>
           </provider>
@@ -177,6 +183,13 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>TypeContext</find>
+      <find>Method</find>
+      <find>MethodDe</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -186,7 +199,6 @@
         <option value="$PROJECT_DIR$/code/read_file.py" />
         <option value="$PROJECT_DIR$/code/grammar.py" />
         <option value="$PROJECT_DIR$/src/MiniJava.g4" />
-        <option value="$PROJECT_DIR$/src/Method.py" />
         <option value="$PROJECT_DIR$/src/TypeEvaluator.py" />
         <option value="$PROJECT_DIR$/src/TypeChecker.py" />
         <option value="$PROJECT_DIR$/src/SymbolChecker.py" />
@@ -199,8 +211,9 @@
         <option value="$PROJECT_DIR$/src/Class.py" />
         <option value="$PROJECT_DIR$/src/ErrorReport.py" />
         <option value="$PROJECT_DIR$/src/Main.py" />
-        <option value="$PROJECT_DIR$/test_file/binarysearch.java" />
+        <option value="$PROJECT_DIR$/src/Method.py" />
         <option value="$PROJECT_DIR$/src/ScopeBuilder.py" />
+        <option value="$PROJECT_DIR$/test_file/binarysearch.java" />
       </list>
     </option>
   </component>
@@ -352,7 +365,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17927383" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22919819" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -456,16 +469,6 @@
           <SelectedNodes />
           <Categories />
           <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Method.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
-          <folding>
-            <marker date="1544969266394" expanded="true" signature="95:100" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -588,34 +591,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Class.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ErrorReport.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
           <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MiniJavaListener.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MiniJavaParser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="950">
-          <caret line="2557" selection-start-line="2557" selection-end-line="2557" />
         </state>
       </provider>
     </entry>
@@ -626,10 +605,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_file/binarysearch.java">
+    <entry file="file://$PROJECT_DIR$/src/MiniJavaListener.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        <state relative-caret-position="646">
+          <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -643,14 +622,67 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Class.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Method.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1107">
+          <caret line="65" column="19" selection-start-line="65" selection-start-column="19" selection-end-line="65" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+            <marker date="1545473789297" expanded="true" signature="95:100" ph="..." />
+            <marker date="1545473789297" expanded="true" signature="95:1904" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MiniJavaParser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="646" column="36" selection-start-line="646" selection-start-column="36" selection-end-line="646" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/anaconda/Anaconda3/Lib/site-packages/antlr4/ParserRuleContext.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="155" column="44" selection-start-line="155" selection-start-column="44" selection-end-line="155" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/102131857/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-621">
+          <caret line="5445" column="6" selection-start-line="5445" selection-start-column="6" selection-end-line="5445" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ScopeBuilder.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="17" column="43" lean-forward="true" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+        <state relative-caret-position="207">
+          <caret line="57" column="69" lean-forward="true" selection-start-line="57" selection-start-column="69" selection-end-line="57" selection-end-column="69" />
           <folding>
             <element signature="e#0#45#0" expanded="true" />
-            <marker date="1545470470397" expanded="true" signature="300:369" ph="..." />
+            <marker date="1545474898309" expanded="true" signature="326:395" ph="..." />
+            <marker date="1545474898309" expanded="true" signature="1518:2094" ph="..." />
+            <marker date="1545474898309" expanded="true" signature="2131:2140" ph="..." />
+            <marker date="1545474898309" expanded="true" signature="2131:2162" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_file/binarysearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="12" column="53" lean-forward="true" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
         </state>
       </provider>
     </entry>

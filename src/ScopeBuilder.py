@@ -1,5 +1,6 @@
 from MiniJavaListener import MiniJavaListener
 from Class import Class
+from Method import Method
 from ErrorReport import ErrorReport
 
 class ScopeBuilder(MiniJavaListener):
@@ -46,10 +47,25 @@ class ScopeBuilder(MiniJavaListener):
         self.exitScope()
 
     def enterMethodDeclaration(self, ctx):
-        pass
+        methodName = ctx.name.text
+        methodReturnType = ctx.rtype
+
+        if self.currentScope and self.currentScope.isValid:
+            valid = True
+        else:
+            valid = False
+
+        if self.currentScope.findLocalSymbol(methodName) is not None:
+            ErrorReport.reportError(ctx.name, "Method already exists.")
+            valid = False
+
+        currentMethod = Method(methodName, methodReturnType, self.currentScope, valid)
+        if valid:
+            self.currentScope.addSymbol(currentMethod)
+        self.currentScope = currentMethod
 
     def exitMethodDeclaration(self, ctx):
-        pass
+        self.exitScope()
 
     def enterVarDeclaration(self, ctx):
         pass
