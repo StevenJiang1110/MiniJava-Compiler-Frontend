@@ -27,12 +27,10 @@ if __name__ =='__main__':
     parser = MiniJavaParser(tokens)
 
     syntaxErrorListener = ConsoleErrorListener.INSTANCE
-    #parser.removeErrorListeners()
-    #parser.addErrorListener(syntaxErrorListener)
+    parser.removeErrorListeners()
+    parser.addErrorListener(syntaxErrorListener)
     tree = parser.goal()
     ErrorReport.exitOnErrors()
-
-    print(type(tree))
 
     print(tree.toStringTree(recog=parser))
 
