@@ -9,9 +9,8 @@ from TypeChecker import TypeChecker
 from MiniJavaLexer import MiniJavaLexer
 from MiniJavaParser import MiniJavaParser
 from antlr4.error.ErrorListener import ConsoleErrorListener
+from MainParameter import MainParameter
 
-inputLines = list()
-classes = dict()
 virtualSuperScope = Class("<Virtual Super Scope>", "<No Parent Class>", None)
 
 if __name__ =='__main__':
@@ -37,12 +36,12 @@ if __name__ =='__main__':
     walker = ParseTreeWalker()
 
     #scope
-    scopeBuilder = ScopeBuilder(classes, virtualSuperScope)
+    scopeBuilder = ScopeBuilder(MainParameter.classes, virtualSuperScope)
     walker.walk(scopeBuilder, tree)
     ErrorReport.exitOnErrors()
 
     #symbol checker
-    symbolChecker = SymbolChecker(classes, virtualSuperScope)
+    symbolChecker = SymbolChecker(MainParameter.classes, virtualSuperScope)
     walker.walk(symbolChecker, tree)
     ErrorReport.exitOnErrors()
 
@@ -50,7 +49,7 @@ if __name__ =='__main__':
     ErrorReport.exitOnErrors()
 
     #type checker
-    typeChecker = TypeChecker(classes, virtualSuperScope)
+    typeChecker = TypeChecker(MainParameter.classes, virtualSuperScope)
     walker.walk(typeChecker, tree)
     ErrorReport.exitOnErrors()
 
