@@ -6,8 +6,6 @@ class ErrorReport(object):
 
     @classmethod
     def hasError(cls):
-        global I
-
         return ErrorReport.errorCount > 0
 
     @classmethod
