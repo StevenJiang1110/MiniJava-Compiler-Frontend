@@ -1,7 +1,7 @@
 ﻿# MiniJava编译器前端
 ### 编译原理课程作业，读入miniJava程序文件，生成语法分析树，并进行错误处理
 ### 本项目代码在pycharm + python3.6下运行成功，运行前，需要安装antlr4-runtime
-### 本项目也可用命令行方式运行，进入src目录下运行
+### 本项目也可用命令行方式运行，进入src目录下运行 python Main.py 命令
 ### 关于antlr4的下载使用可参见：
 + https://www.antlr.org/download.html
 ### 实现上主要借助了antlr4完成了对语法规则的解析和生成
